@@ -20,7 +20,8 @@ Supported devices
 * Vaporflask Classic*
 * Vaporflask Lite*
 * Vaporflask Stout*
-* Reuleaux RX200*
+* Reuleaux RX200
+* Reuleaux RX200S
 
 \*Untested
 
@@ -29,6 +30,8 @@ Tested firmware versions
 
 * Evic VTC Mini <=3.02
 * Presa TC75W 1.02\*
+* RX200 3.10
+* RX200S 4.10
 * Examples from `evic-sdk <https://github.com/ReservedField/evic-sdk>`_
 
 \*Flashing Presa firmware to a VTC Mini requires changing the hardware version
