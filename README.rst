@@ -47,7 +47,7 @@ Using ``evic-usb`` requires ``cython-hidapi``. You can install it using  ``pip``
 
 ::
 
-    $ pip install hidapi
+    $ pip install hidapi click setuptools pil
 
 Building ``cython-hidapi`` requires libusb headers and cython. On Arch Linux they can be obtained from the repositories by installing packages ``libusb`` and ``cython``. Debian based distributions will have packages ``libusb-1.0-0-dev`` and ``cython``.
 
