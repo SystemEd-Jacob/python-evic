@@ -25,4 +25,8 @@ git clone git://github.com/Ban3/python-evic.git && cd ./python-evic
 echo Installing python-evic
 sudo python3 setup.py install
 
+# Cleanup
+cd ../
+rm -Rf python-evic
+
 echo Installation complete. Run \"sudo evic-usb upload /path/to/firmware.bin\" to install a new firmware.
