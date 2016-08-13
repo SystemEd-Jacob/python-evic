@@ -40,6 +40,11 @@ on some devices. Backup your data flash before flashing!
 Installation
 -------------
 
+Installing on Ubuntu:
+^^^^^^^^^^^^^^^^^^^^^^
+Download Ubuntu-Install.sh from the Installers directory. Right click > Properties > Mark Executable.
+It will automatically download and install all of the required dependencies and evic-usb.
+
 Install from source:
 ^^^^^^^^^^^^^^^^^^^^^^
 
