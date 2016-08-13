@@ -4,7 +4,7 @@ echo Please enter your password to continue...
 
 # Install the following dependencies from repositories without asking questions, git-core can be removed afterwords as it's only used to initialise a local git repository
 echo Installing dependencies
-sudo apt-get -y install git-core python3 cython3 libusb-1.0.0 python3-pip python3-hidapi python3-pil
+sudo apt-get -y install git-core python3 cython3 libusb-1.0.0 python3-pip python3-hidapi python3-pil python3-setuptools
 
 # Get the sudoers home directory before changing directory into it
 cd ~
