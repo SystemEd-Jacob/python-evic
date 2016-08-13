@@ -4,13 +4,13 @@ echo Please enter your password to continue...
 
 # Install the following dependencies from repositories without asking questions, git-core can be removed afterwords as it's only used to initialise a local git repository
 echo Installing dependencies
-sudo apt-get -y install git-core python3 cython3 libusb python3-pip
+sudo apt-get -y install git-core python3 cython3 libusb-1.0.0 python3-pip
 
 # Install the hidapi dependency
 sudo pip install hidapi
 
 # Get the sudoers home directory before changing directory into it
-eval echo "~$SUDO_USER" && cd -
+cd ~
 
 # Make a directory called python-evic under the sudoers home directory
 mkdir python-evic
