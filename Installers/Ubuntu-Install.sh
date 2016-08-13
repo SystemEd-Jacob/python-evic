@@ -12,12 +12,14 @@ pip3 install hidapi
 # Get the sudoers home directory before changing directory into it
 cd ~
 
-# Make a directory called python-evic under the sudoers home directory
-mkdir python-evic
+# If the git repository already exists then delete it
+if [ -d "python-evic" ]; then
+  rm -Rf python-evic
+fi
 
 # Clone the pythin-evic repository the change directory into it
 echo Cloning python-evic repository
-git clone git://github.com/Ban3/python-evic.git ./python-evic && cd ./python-evic
+git clone git://github.com/Ban3/python-evic.git && cd ./python-evic
 
 # Install python-evic
 echo Installing python-evic
