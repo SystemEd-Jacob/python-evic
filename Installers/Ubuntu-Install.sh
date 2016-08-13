@@ -7,7 +7,7 @@ echo Installing dependencies
 sudo apt-get -y install git-core libusb-1.0.0 libudev-dev python3 cython3 python3-pip python3-pil python3-setuptools
 
 cd /tmp
-pip3 install hidapi
+pip3 install hidapi click
 
 # Get the sudoers home directory before changing directory into it
 cd ~
