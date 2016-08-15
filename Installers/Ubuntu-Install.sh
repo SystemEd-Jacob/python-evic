@@ -9,8 +9,8 @@ sudo apt-get -y install git-core libusb-1.0.0 libudev-dev python3 cython3 python
 cd /tmp
 pip3 install hidapi click
 
-# Get the sudoers home directory before changing directory into it
-cd ~
+# Build within /tmp
+cd /tmp
 
 # If the git repository already exists then delete it
 if [ -d "python-evic" ]; then
